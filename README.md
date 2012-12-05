@@ -1,7 +1,7 @@
-tpe-hci-android
+TPE-HCI-2
 ===============
 
-Android mobile app for HCI course at ITBA
+Android mobile app for HCI course @ ITBA
 
 
 Reference
