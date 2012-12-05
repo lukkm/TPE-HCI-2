@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    <style name="MyTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:height">200dp</item>
+    </style>
+    
+    <style name="travelTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarTabStyle">@style/MyTabStyle</item>
+    </style>
+    
+    -->
+</resources>

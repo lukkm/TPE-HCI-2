@@ -1,0 +1,78 @@
+<resources>
+
+    <!--  General  -->
+    
+    <string name="app_name">Travel.ly</string>
+    <string name="title_activity_main">Travel.ly</string>
+    <string name="welcome">Bienvenido a la aplicacion para android de Travel.ly</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="empty"></string>
+    <string name="no_internet_connection">No hay conexion a internet</string>
+    
+    <!--  Sections  -->
+    
+    <string name="favorites_title">Favoritos</string>
+    <string name="comments_title">Comentarios</string>
+    <string name="deals_title">Ofertas</string>
+    <string name="menu_settings">Preferencias</string>
+    
+		
+    <!--  Comment Section  -->
+    
+    <string name="flight_number_hint">Ingrese el número de vuelo</string>
+    	
+	<string name="food_rating">Comida</string>
+	<string name="kindness_rating">Amabilidad</string>
+	<string name="mileage_program_rating">Programa de millas</string>
+	<string name="comfort_rating">Comodidad</string>
+	<string name="price_quality_rating">Relación Precio-Calidad</string>
+	<string name="punctuality_rating">Puntualidad</string>
+	<string name="recommend_text">Recomendar este vuelo</string>
+	<string name="comments">Comentarios</string>
+	<string name="successfull_comment">Comentario Enviado</string>
+	<string name="failed_to_comment">No se pudo enviar el comentario</string>
+	<string name="invalid_airline">Aerolinea Invalida</string>
+	<string name="invalid_flight_number">Numero de vuelo invalido</string>
+	
+	<string name="rating_button">Enviar comentario</string>
+	
+	
+	<!--  Favorites Section  -->
+	
+	<string name="favorites_button_add">Añadir</string>
+	<string name="flight_number_hint_small">Número de vuelo</string>
+	<string name="airline_hint_small">Aerolínea</string>
+	<string name="flight_already_on_favorites">El vuelo ya esta en favoritos</string>
+	<string name="flight">Vuelo</string>
+	
+	<!--  Flight Information Section  -->
+	
+	<string name="flight_info_title">Información de vuelo</string>
+	<string name="column_notify_title">Notificarme de cambios</string>
+	<string name="departure_city">Ciudad de partida</string>
+	<string name="arrival_city">Ciudad de llegada</string>
+	<string name="airline_name">Aerolínea</string>
+	<string name="airport_terminal">Terminal</string>
+	<string name="airport_gate">Puerta</string>
+	<string name="flight_status">Estado</string>
+	<string name="scheduled_time">Hora programada</string>
+	<string name="flight_number">Número de vuelo</string>
+	<string name="accept_preference_changes">Aceptar</string>
+	<string name="remove_favorite_button">Remover</string>
+	
+	
+	<!-- 	Settings Section -->
+	
+	<string name="notifications">Notificaciones</string>
+	
+	<!--  Flight Status Section  -->
+	
+	<string name="scheduled">Agendado</string>
+	<string name="active">Activo</string>
+	<string name="deviated">Desviado</string>
+	<string name="landed">Aterrizado</string>
+	<string name="cancelled">Cancelado</string>
+	<string name="unknown">Desconocido</string>
+
+</resources>

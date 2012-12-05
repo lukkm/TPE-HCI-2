@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="top"
+	    android:orientation="vertical" >
+
+	    <EditText
+	        android:id="@+id/flightNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="22dp"
+	        android:layout_marginRight="22dp"
+	        android:layout_marginTop="15dp"
+	        android:ems="10"
+	        android:hint="@string/flight_number_hint"
+	        android:inputType="number" />
+
+	    <AutoCompleteTextView
+	        android:id="@+id/airline_auto_complete"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="22dp"
+	        android:layout_marginRight="22dp"
+	        android:ems="10"
+	        android:hint="@string/airline_hint_small" />
+
+	    <TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="20dp"
+	        android:paddingLeft="@dimen/table_padding" >
+
+	        <TableRow
+	            android:id="@+id/tableRow1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/text_food"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="top"
+	                android:layout_marginTop="20dp"
+	                android:text="@string/food_rating"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <RatingBar
+	                android:id="@+id/food"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="@dimen/table_padding"
+	                android:numStars="5" />
+
+	        </TableRow>
+
+	        <TableRow
+	            android:id="@+id/tableRow2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/text_kindness"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="@string/kindness_rating"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <RatingBar
+	                android:id="@+id/kindness"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="@dimen/table_padding"
+	                android:numStars="5" />
+
+	        </TableRow>
+
+	        <TableRow
+	            android:id="@+id/tableRow3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/text_punctuality"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="@string/punctuality_rating"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <RatingBar
+	                android:id="@+id/punctuality"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="@dimen/table_padding"
+	                android:numStars="5" />
+
+	        </TableRow>
+
+	        <TableRow
+	            android:id="@+id/tableRow4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/text_mileage"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="@string/mileage_program_rating"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <RatingBar
+	                android:id="@+id/mileage_program"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="@dimen/table_padding"
+	                android:numStars="5" />
+
+	        </TableRow>
+
+	        <TableRow
+	            android:id="@+id/tableRow5"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/text_comfort"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="@string/comfort_rating"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <RatingBar
+	                android:id="@+id/comfort"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="@dimen/table_padding"
+	                android:numStars="5" />
+
+	        </TableRow>
+
+	        <TableRow
+	            android:id="@+id/tableRow6"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+	                android:id="@+id/text_price_quality"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="top"
+	                android:paddingTop="@dimen/table_padding"
+	                android:text="@string/price_quality_rating"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <RatingBar
+	                android:id="@+id/price_quality"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="@dimen/table_padding"
+	                android:numStars="5" />
+
+	        </TableRow>
+	    </TableLayout>
+
+	    <Switch
+	        android:id="@+id/yes_no_recommend"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginBottom="15dp"
+	        android:layout_marginTop="15dp"
+	        android:text="@string/recommend_text"
+	        android:textOff="@string/no"
+	        android:textOn="@string/yes" />
+	    
+	    <EditText
+	        android:id="@+id/comments_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:hint="@string/comments"
+	        android:inputType="textMultiLine" >
+	    </EditText>
+
+	    <Button
+	        android:id="@+id/send_comment_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="15dp"
+	        android:onClick="sendComment"
+	        android:text="@string/rating_button" />
+	</LinearLayout>
+
+</ScrollView>

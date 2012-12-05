@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingLeft="15dp"
+	    android:paddingRight="15dp" >
+	
+	    <TextView
+	        android:id="@+id/flight_info_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/flight_info_title"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	
+	
+	<TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.63" >
+	
+	        <TableRow android:layout_marginTop="20dp" 
+	            android:gravity="center_horizontal">
+	
+	
+	          <TextView
+	              android:id="@+id/flight_number"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_marginTop="10dp"
+	              android:textColor="#555"
+	              android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        </TableRow>
+	    
+	    
+	       
+	
+	        <TableRow android:layout_marginTop="20dp" >
+	
+	            <TextView
+	                android:id="@+id/departure_city_name"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/departure_city" />
+	
+	            <TextView
+	                android:id="@+id/departure_city"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="#666" />
+	
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	        </TableRow>
+	
+	        <TableRow
+	            android:layout_marginTop="10dp" >
+	
+	        <TextView
+	            android:id="@+id/arrival_city_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/arrival_city" />
+	
+	        <TextView
+	            android:id="@+id/arrival_city"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#666" />
+			
+	        </TableRow>
+	        
+	         <TableRow
+	            android:layout_marginTop="10dp" >
+	
+	        <TextView
+	            android:id="@+id/airline_name_field"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/airline_name" />
+	
+	        <TextView
+	            android:id="@+id/airline_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#666" />
+			
+	        </TableRow>
+	        
+	         <TableRow android:gravity="right"
+	             android:layout_marginTop="15dp" >
+	
+	            <TextView
+	                android:id="@+id/notify_title"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="15dp"
+	                android:gravity="right"
+	                android:text="@string/column_notify_title"
+	                android:textAppearance="?android:attr/textAppearanceSmall"
+	                android:textColor="#333" />
+	        </TableRow>
+	        
+	         <TableRow
+	            android:layout_marginTop="10dp" >
+	
+	        <TextView
+	            android:id="@+id/status_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/flight_status" />
+
+	        <TextView
+	            android:id="@+id/status"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#666" />
+	
+	        <CheckBox
+	            android:id="@+id/status_check"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="130dp"/>
+			
+	        </TableRow>
+	         
+	         <TableRow
+	            android:layout_marginTop="10dp" >
+	
+	        <TextView
+	            android:id="@+id/airport_terminal_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/airport_terminal" />
+
+	        <TextView
+	            android:id="@+id/airport_terminal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#666" />
+	
+	        <CheckBox
+	            android:id="@+id/terminal_check"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="130dp"/>
+			
+	        </TableRow>
+	        
+	           <TableRow
+	            android:layout_marginTop="10dp" 
+	            android:layout_width="match_parent"
+	            android:layout_gravity="right">
+	
+
+	        <TextView
+	            android:id="@+id/airport_gate_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:text="@string/airport_gate" />
+
+	        <TextView
+	            android:id="@+id/airport_gate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical"
+	            android:textColor="#666" />
+	
+	        <CheckBox
+	            android:id="@+id/gate_check"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="right"
+	            />
+			
+	        </TableRow>
+	        
+	          <TableRow
+	            android:layout_marginTop="10dp" >
+	
+	        <TextView
+	            android:id="@+id/scheduled_time_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/scheduled_time" />
+
+	        <TextView
+	            android:id="@+id/scheduled_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#666" />
+	
+	        <CheckBox
+	            android:id="@+id/time_check"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="130dp"/>
+			
+	        </TableRow>
+	        
+	
+	    </TableLayout>
+
+
+   	<Button
+   	    android:id="@+id/accept_preferences_button"
+   	    android:layout_marginTop="30dp"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="center"
+   	    android:onClick="acceptChangesOnPreferences"
+   	    android:text="@string/accept_preference_changes" />
+
+
+
+	<Button
+	    android:id="@+id/remove_favorite_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginBottom="30dp"
+	    android:layout_marginTop="15dp"
+	    android:onClick="removeFavorite"
+	    android:text="@string/remove_favorite_button" />
+	
+	</LinearLayout>
+</ScrollView>

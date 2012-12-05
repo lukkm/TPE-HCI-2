@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/display_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      <TextView
+        android:id="@+id/display_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+        android:id="@+id/display_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+       
+       <TextView
+		    android:id="@+id/myText1" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="?android:attr/listPreferredItemHeight"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:gravity="center_vertical"
+		    android:paddingLeft="5dip"
+		    android:singleLine="true"
+		/>
+       <TextView
+		    android:id="@+id/myText2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="?android:attr/listPreferredItemHeight"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:gravity="center_vertical"
+		    android:paddingLeft="5dip"
+		    android:singleLine="true"
+		/>
+       <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/myText3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="?android:attr/listPreferredItemHeight"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:gravity="center_vertical"
+		    android:paddingLeft="5dip"
+		    android:singleLine="true"
+		/>
+       
+         
+
+      <fragment
+          android:id="@+id/fragment_favorites_add"
+          android:name="ly.travel.mobile.Fragments.FavoritesAddFragment"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="0.80" />
+      
+       <fragment android:name="ly.travel.mobile.Fragments.FavoritesListFragment"
+            android:id="@+id/fragment_favorites_list"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="0dp" />
+      
+
+</LinearLayout>

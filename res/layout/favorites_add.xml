@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <Button
+            android:id="@+id/add_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:onClick="addFavorite"
+            android:text="@string/favorites_button_add" />
+
+        <EditText
+            android:id="@+id/add_favorite_flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/add_favorite"
+            android:layout_alignBottom="@+id/add_favorite"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/add_favorite"
+            android:ems="10"
+            android:hint="@string/flight_number_hint_small"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <AutoCompleteTextView
+            android:id="@+id/airline_auto_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/add_favorite_flight"
+            android:layout_below="@+id/add_favorite_flight"
+            android:ems="10"
+            android:hint="@string/airline_hint_small" />
+
+    </RelativeLayout>

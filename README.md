@@ -1,4 +1,10 @@
-TPE-HCI-2
-=========
+tpe-hci-android
+===============
 
-Project for HCI course @ ITBA. 
+Android mobile app for HCI course at ITBA
+
+
+Reference
+---------
+
+ * [Android Developers Website](http://developer.android.com/)
